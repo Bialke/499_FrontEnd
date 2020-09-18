@@ -16,7 +16,7 @@
         <Button Content="Disburse Stock" HorizontalAlignment="Left" Margin="400,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <Button Content="Report Generation" HorizontalAlignment="Left" Margin="585,115,0,0" VerticalAlignment="Top" Width="149" Height="34" Click="Button_Click"/>
         <TextBlock HorizontalAlignment="center" Margin="360,184,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="206" Width="430"><Run FontWeight="Bold" FontSize="20" Text="Stock Total" TextDecorations="Underline"/></TextBlock>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="29,31,0,0" VerticalAlignment="Top" Width="64" Height="39"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="29,31,0,0" VerticalAlignment="Top" Width="149" Height="39"/>
         <Button Content="Disburse Stock" HorizontalAlignment="Left" Margin="275,239,0,0" VerticalAlignment="Top" Width="115" Height="38"/>
         <Button Content="Report Generation" HorizontalAlignment="Left" Margin="434,239,0,0" VerticalAlignment="Top" Width="115" Height="38"/>
         <DataGrid HorizontalAlignment="Left" Height="115" Margin="216,308,0,0" VerticalAlignment="Top" Width="396"/>

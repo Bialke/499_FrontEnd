@@ -11,13 +11,10 @@
     <Grid Background="#F8E473">
 
         <Image Margin="308,0,310,334.6" Source="really good uws.PNG" Stretch="Fill"/>
-        <Button Content="Pickups" HorizontalAlignment="Left" Margin="29,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
-        <Button Content="Record Donation" HorizontalAlignment="Left" Margin="216,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
-        <Button Content="Disburse Stock" BorderBrush="White" HorizontalAlignment="Left" Margin="400,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
-        <Button Content="Report Generation" HorizontalAlignment="Left" Margin="585,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
-        <TextBlock HorizontalAlignment="center" Margin="326,192,44,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="206" Width="430"><Run FontWeight="Bold" FontSize="20" Text="Disburse Stock" TextDecorations="Underline"/></TextBlock>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="29,31,0,0" VerticalAlignment="Top" Width="64" Height="39" Click="Button_Click"/>
-        <Button Content="Stock Total" HorizontalAlignment="Left" Margin="153,182,0,0" VerticalAlignment="Top" Width="143" Height="31"/>
+        <TextBlock HorizontalAlignment="center" Margin="293,38,77,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="206" Width="430"><Run FontWeight="Bold" FontSize="20" Text="Disburse Stock" TextDecorations="Underline"/></TextBlock>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="29,38,0,0" VerticalAlignment="Top" Width="149" Height="34" Click="Button_Click"/>
+        <Button Content="New Disbursement" HorizontalAlignment="Left" Margin="29,210,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
+        <Button Content="Existing Request" HorizontalAlignment="Left" Margin="29,167,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
 
     </Grid>
 </Page>
