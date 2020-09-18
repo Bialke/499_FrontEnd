@@ -1,0 +1,30 @@
+﻿<Window x:Class="FoodPantry.Windows.Requests"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodPantry.Windows"
+        mc:Ignorable="d"
+        Title="Request Food" Height="480" Width="800">
+    <Grid Background="#F8E473" Margin="0,0,-0.4,-20">
+        <Image Margin="308,0,310,334.6" Source="logo.png" Stretch="Fill"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="240,166,0,0" TextWrapping="Wrap" Text="Student ID" VerticalAlignment="Top" Width="140"/>
+        <TextBlock HorizontalAlignment="center" Margin="333,120,304.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="136"><Run FontWeight="Bold" FontSize="20" Text="Request Food" TextDecorations="Underline"/></TextBlock>
+        <TextBlock HorizontalAlignment="center" Margin="57,298,558.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="178"><Run FontWeight="Bold" FontSize="20" Text="Select Food Items: "/></TextBlock>
+        <TextBlock HorizontalAlignment="center" Margin="395,299,251.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="21" Width="147"><Run FontWeight="Bold" FontSize="20" Text="Time of pickup:" /></TextBlock>
+        <ComboBox HorizontalAlignment="Left" Margin="260,298,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="563,299,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.33,0.542"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="336,379,0,0" VerticalAlignment="Top" Width="133" Height="35"/>
+        <ComboBox HorizontalAlignment="Left" Margin="260,325,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="260,352,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="563,167,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="center" Margin="125,158,558.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="110"><Run FontWeight="Bold" FontSize="20" Text="Student ID: "/></TextBlock>
+        <TextBlock HorizontalAlignment="center" Margin="418,158,230.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="145"><Run FontWeight="Bold" FontSize="20" Text="Age Category: "/></TextBlock>
+        <ComboBox HorizontalAlignment="Left" Margin="260,225,0,0" VerticalAlignment="Top" Width="120"/>
+        <CheckBox Content="17 or under" HorizontalAlignment="Left" Margin="563,225,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="18-64" HorizontalAlignment="Left" Margin="563,245,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="65+" HorizontalAlignment="Left" Margin="563,265,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="center" Margin="71,219,533.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="189"><Run FontWeight="Bold" FontSize="20" Text="On UWS Meal Plan:"/></TextBlock>
+        <TextBlock HorizontalAlignment="center" Margin="409,225,230.6,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="154"><Run FontWeight="Bold" FontSize="8" Text="Age Category of Others in Household:"/></TextBlock>
+    </Grid>
+</Window>

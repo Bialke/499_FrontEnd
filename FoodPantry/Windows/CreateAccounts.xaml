@@ -1,0 +1,24 @@
+﻿<Window x:Class="FoodPantry.Windows.CreateAccounts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FoodPantry.Windows"
+        mc:Ignorable="d"
+        Title="Create Account" Height="450" Width="800">
+    <Grid Background="#F8E473">
+        <Grid>
+            <TextBlock Text="Create an Account" FontSize="20" FontWeight="Bold" TextDecorations="underline" Margin="310,100,100,100"></TextBlock>
+
+            <TextBox x:Name ="usernameTbox" HorizontalAlignment="Left" Height="35" Margin="238,170,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="363" />
+            <TextBox x:Name="passwordTbox" HorizontalAlignment="Left" Height="35" Margin="238,243,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="363" />
+            <TextBox x:Name="confirmpasswordTbox" HorizontalAlignment="Left" Height="35" Margin="238,318,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="363" />
+            <TextBlock HorizontalAlignment="Left" Margin="144,170,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Height="35"/>
+            <TextBlock HorizontalAlignment="Left" Margin="144,243,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="35"/>
+            <TextBlock HorizontalAlignment="Left" Margin="144,318,0,0" TextWrapping="Wrap" Text="Confirm Password" VerticalAlignment="Top" Height="35" Width="68"/>
+            <Button x:Name="Next_Btn" Content="Confirm" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,310,25.6" Click="Next_Btn_Click"/>
+            <Button x:Name="Back_Btn" Content="Back" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Margin="0,0,417,25.6" Click="Back_Btn_Click"/>
+            <Image Margin="308,0,310,334.6" Source="logo.PNG" Stretch="Fill"/>
+        </Grid>
+    </Grid>
+</Window>

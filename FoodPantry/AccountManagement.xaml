@@ -1,0 +1,23 @@
+﻿<Page x:Class="FoodPantry.PW"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FoodPantry"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PW">
+
+    <Grid Background="#F8E473">
+        <Image Margin="308,0,310,334.6" Source="really good uws.PNG" Stretch="Fill"/>
+        <Button Content="Pickups" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top" Width="126" Height="34"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" Width="126" Height="34"/>
+        <Button Content="Record Donation" HorizontalAlignment="Left" Margin="170,120,0,0" VerticalAlignment="Top" Width="126" Height="34"/>
+        <Button Content="Disburse Stock" HorizontalAlignment="Left" Margin="329,120,0,0" VerticalAlignment="Top" Width="126" Height="34"/>
+        <Button Content="Report Generation" HorizontalAlignment="Left" Margin="481,120,0,0" VerticalAlignment="Top" Width="126" Height="34"/>
+        <Button Content="Password Reset" HorizontalAlignment="Left" Margin="633,120,0,0" VerticalAlignment="Top" Width="126" Height="34"/>
+        <TextBlock HorizontalAlignment="center" Margin="329,182,41,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="206" Width="430"><Run FontWeight="Bold" Text="Account Management" TextDecorations="Underline"/></TextBlock>
+        <TextBox x:Name="Acc_Search_Textbox" HorizontalAlignment="Left" Height="34" TextWrapping="Wrap" Text="staffPantry^99" VerticalAlignment="Top" Width="130" Margin="262,221,0,0"/>
+        <Button x:Name="Locked_Acc_Btn" Content="Set Staff Password" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="102,221,0,0" Height="34" Click="Locked_Acc_Btn_Click"/>
+    </Grid>
+</Page>
