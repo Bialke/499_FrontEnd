@@ -109,9 +109,6 @@
     <Compile Include="Windows\ScheduledPickups.xaml.cs">
       <DependentUpon>ScheduledPickups.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Stock.xaml.cs">
-      <DependentUpon>Stock.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View.xaml.cs">
       <DependentUpon>View.xaml</DependentUpon>
     </Compile>
@@ -213,10 +210,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\ScheduledPickups.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Stock.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

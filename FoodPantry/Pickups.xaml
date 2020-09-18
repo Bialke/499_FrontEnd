@@ -10,7 +10,7 @@
 
     <Grid Background="#F8E473" RenderTransformOrigin="0.096,0.504">
         <Image Margin="308,0,310,334.6" Source="logo.png" Stretch="Fill"/>
-        <Button Content="Pickups" HorizontalAlignment="Left" Margin="29,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
+        <Button Content="Pickups" BorderBrush="White" HorizontalAlignment="Left" Margin="29,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <Button Content="Record Donation" HorizontalAlignment="Left" Margin="216,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <Button Content="Disburse Stock" HorizontalAlignment="Left" Margin="400,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <Button Content="Report Generation" HorizontalAlignment="Left" Margin="585,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
