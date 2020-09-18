@@ -9,15 +9,13 @@
       Title="Donation">
 
     <Grid Background="#F8E473">
-
-        <Image Margin="308,0,310,334.6" Source="really good uws.PNG" Stretch="Fill"/>
         <Button Content="Pickups" HorizontalAlignment="Left" Margin="29,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <Button Content="Record Donation" BorderBrush="White"  HorizontalAlignment="Left" Margin="216,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <Button Content="Disburse Stock" HorizontalAlignment="Left" Margin="400,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
         <Button Content="Report Generation" HorizontalAlignment="Left" Margin="585,115,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
-        <TextBlock HorizontalAlignment="center" Margin="329,182,41,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="206" Width="430"><Run FontWeight="Bold" FontSize="20" Text="Record Donations" TextDecorations="Underline"/></TextBlock>
+        <TextBlock HorizontalAlignment="center" Margin="308,182,307,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="185"><Run FontWeight="Bold" FontSize="20" Text="Record Donations" TextDecorations="Underline"/></TextBlock>
         <Button Content="Home" HorizontalAlignment="Left" Margin="29,50,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
-        <Button Content="Stock Total" HorizontalAlignment="Left" Margin="153,182,0,0" VerticalAlignment="Top" Width="143" Height="31"/>
+        <Image Margin="308,0,310,334.6" Source="logo.png" Stretch="Fill"/>
 
     </Grid>
 </Page>

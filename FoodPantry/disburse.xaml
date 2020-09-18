@@ -9,12 +9,11 @@
       Title="disburse">
 
     <Grid Background="#F8E473">
-
-        <Image Margin="308,0,310,334.6" Source="really good uws.PNG" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="center" Margin="293,38,347,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="160"><Run FontWeight="Bold" FontSize="20" Text="Disburse Stock" TextDecorations="Underline"/></TextBlock>
+        <TextBlock HorizontalAlignment="center" Margin="364,188,276,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="160"><Run FontWeight="Bold" FontSize="20" Text="Disburse Stock" TextDecorations="Underline"/></TextBlock>
         <Button Content="Home" HorizontalAlignment="Left" Margin="29,38,0,0" VerticalAlignment="Top" Width="149" Height="34" Click="Button_Click"/>
-        <Button Content="New Disbursement" HorizontalAlignment="Left" Margin="29,210,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
-        <Button Content="Existing Request" HorizontalAlignment="Left" Margin="29,167,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
+        <Button Content="New Disbursement" HorizontalAlignment="Left" Margin="29,256,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
+        <Button Content="Existing Request" HorizontalAlignment="Left" Margin="29,200,0,0" VerticalAlignment="Top" Width="149" Height="34"/>
+        <Image Margin="316,22,302,313" Source="logo.png" Stretch="Fill"/>
 
     </Grid>
 </Page>
