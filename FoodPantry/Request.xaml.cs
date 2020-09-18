@@ -29,6 +29,10 @@ namespace FoodPantry
         {
 
         }
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+
+        }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -45,9 +49,6 @@ namespace FoodPantry
 
         }
 
-        private void ComboBox_SelectionChanged_3(object sender, SelectionChangedEventArgs e)
-        {
 
-        }
     }
 }

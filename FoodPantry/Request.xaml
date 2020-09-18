@@ -9,33 +9,43 @@
       Title="Request">
 
     <Grid Background="#F8E473" Margin="0,0,0,-35">
-        <Image Margin="308,0,310,355" Source="logo.png" Stretch="Fill"/>
-        <TextBlock HorizontalAlignment="center" Margin="336,120,331,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="133"><Run FontWeight="Bold" FontSize="20" Text="Request Food" TextDecorations="Underline"/></TextBlock>
-        <TextBlock HorizontalAlignment="center" Margin="407,251,242,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="151" RenderTransformOrigin="0.523,0.307"><Run FontWeight="Bold" FontSize="20" Text="Time of pickup:" /></TextBlock>
-        <ComboBox HorizontalAlignment="Left" IsEditable="True" Text="Peas" Margin="240,312,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_2"/>
-        <ComboBox HorizontalAlignment="Left" IsEditable="True" Text="11/11/20, 1:00pm" Margin="563,257,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.33,0.542" SelectionChanged="ComboBox_SelectionChanged"/>
-        <Button Content="Submit" HorizontalAlignment="Left" Margin="648,443,0,0" VerticalAlignment="Top" Width="133" Height="24"/>
-        <ComboBox HorizontalAlignment="Left" Margin="370,312,0,0" IsEditable="True" Text="Corn" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_1"/>
-        <ComboBox HorizontalAlignment="Left" Margin="502,312,0,0" IsEditable="True" Text="Broccoli" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="260,166,0,0" TextWrapping="Wrap" Text="5551234" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Margin="260,216,0,0" Text="19" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_3"/>
-        <TextBlock HorizontalAlignment="center" Margin="56,163,632,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="26" Width="112"><Run FontWeight="Bold" FontSize="20" Text="Student ID: "/></TextBlock>
-        <TextBlock HorizontalAlignment="center" Margin="56,211,529,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="215"><Run FontWeight="Bold" FontSize="20" Text="Age Category: "/></TextBlock>
-        <ComboBox HorizontalAlignment="Left" IsEditable="True" Text="No" Margin="260,257,0,0" VerticalAlignment="Top" Width="120"/>
-        <CheckBox Content="17 or under" HorizontalAlignment="Left" Margin="563,163,0,0" VerticalAlignment="Top" IsChecked="True" Checked="True"/>
-        <CheckBox Content="18-64" HorizontalAlignment="Left" Margin="563,193,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="65+" HorizontalAlignment="Left" Margin="563,225,0,0" VerticalAlignment="Top" IsChecked="True" Checked="True"/>
-        <TextBlock HorizontalAlignment="center" Margin="56,251,560,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="28" Width="184"><Run FontWeight="Bold" FontSize="20" Text="On UWS Meal Plan:"/></TextBlock>
-        <TextBlock HorizontalAlignment="center" Margin="407,166,242,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="151"><Run FontWeight="Bold" FontSize="8" Text="Age Category of Others in Household:"/><LineBreak/><Run FontWeight="Bold" FontSize="8" Text="(select all that apply)"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Height="17" Margin="668,161,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged"/>
-        <TextBlock HorizontalAlignment="center" Margin="668,152,-19,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="9" Width="151"><Run FontWeight="Bold" FontSize="8" Text="Total number:"/></TextBlock>
-        <TextBlock HorizontalAlignment="center" Margin="103,312,560,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="137"><Run FontWeight="Bold" FontSize="20" Text="Vegetables: "/></TextBlock>
-        <TextBlock HorizontalAlignment="center" Margin="103,355,560,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="137"><Run FontWeight="Bold" FontSize="20" Text="Soup: "/></TextBlock>
-        <ComboBox HorizontalAlignment="Left" IsEditable="True" Text="Tomato" Margin="240,355,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_2"/>
-        <ComboBox HorizontalAlignment="Left" IsEditable="True" Text="Beef" Margin="370,355,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_2"/>
-        <TextBlock HorizontalAlignment="center" Margin="103,393,560,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="137"><Run FontWeight="Bold" FontSize="20" Text="Beans: "/></TextBlock>
-        <ComboBox HorizontalAlignment="Left" IsEditable="True" Text="Select Option" Margin="240,400,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_2"/>
-        <ComboBox HorizontalAlignment="Left" IsEditable="True" Text="Select Option" Margin="502,355,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_2"/>
-        <TextBox HorizontalAlignment="Left" Height="17" Margin="668,223,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" Width="60" TextChanged="TextBox_TextChanged"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="101*"/>
+            <ColumnDefinition Width="99*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="174*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="192*"/>
+            <RowDefinition Height="113*"/>
+        </Grid.RowDefinitions>
+        <Image Margin="308,0,0,0" Source="logo.png" Stretch="Fill" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="182" Height="120" VerticalAlignment="Top"/>
+        <TextBlock Margin="336,120,331,21" TextWrapping="Wrap" Grid.ColumnSpan="2"><Run FontWeight="Bold" FontSize="20" Text="Request Food" TextDecorations="Underline"/></TextBlock>
+        <TextBlock HorizontalAlignment="Right" Margin="0,71,242,93" TextWrapping="Wrap" Width="151" RenderTransformOrigin="0.523,0.307" Grid.Row="2" Grid.Column="1"><Run FontWeight="Bold" FontSize="20" Text="Time of pickup:" /></TextBlock>
+        <ComboBox IsEditable="True" Text="Peas" Margin="240,132,0,0" SelectionChanged="ComboBox_SelectionChanged_2" Grid.Row="2" HorizontalAlignment="Left" Width="120" Height="22" VerticalAlignment="Top"/>
+        <ComboBox IsEditable="True" Text="11/11/20, 1:00pm" Margin="159,77,0,0" RenderTransformOrigin="0.33,0.542" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="120" Height="22" VerticalAlignment="Top"/>
+        <Button Content="Submit" HorizontalAlignment="Left" Margin="230,33,0,0" VerticalAlignment="Top" Width="133" Height="24" Grid.Row="3" Grid.Column="1"/>
+        <ComboBox HorizontalAlignment="Left" Margin="370,132,0,0" IsEditable="True" Text="Corn" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged_1" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <ComboBox Margin="98,132,0,0" IsEditable="True" Text="Broccoli" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="120" Height="22" VerticalAlignment="Top"/>
+        <TextBox Margin="260,166,0,0" TextWrapping="Wrap" Text="5551234" TextChanged="TextBox_TextChanged" Grid.RowSpan="3" HorizontalAlignment="Left" Width="120" Height="23" VerticalAlignment="Top"/>
+        <TextBox Margin="260,36,0,0" Text="19" TextChanged="TextBox_TextChanged_2" Grid.Row="2" Height="23" VerticalAlignment="Top" HorizontalAlignment="Left" Width="120"/>
+        <TextBlock Margin="56,163,0,0" TextWrapping="Wrap" Grid.RowSpan="3" Height="27" VerticalAlignment="Top" HorizontalAlignment="Left" Width="112"><Run FontWeight="Bold" FontSize="20" Text="Student ID: "/></TextBlock>
+        <TextBlock Margin="56,31,0,0" TextWrapping="Wrap" Grid.Row="2" HorizontalAlignment="Left" Width="215" Height="30" VerticalAlignment="Top"><Run FontWeight="Bold" FontSize="20" Text="Age Category: "/></TextBlock>
+        <ComboBox IsEditable="True" Text="No" Margin="260,77,0,0" Grid.Row="2" HorizontalAlignment="Left" Width="120" Height="22" VerticalAlignment="Top"/>
+        <CheckBox Content="17 or under" Margin="159,163,155,0" VerticalAlignment="Top" IsChecked="True" Grid.RowSpan="2" Grid.Column="1"/>
+        <CheckBox Content="18-64" Margin="159,13,186,164" Grid.Row="2" Grid.Column="1"/>
+        <CheckBox Content="65+" Margin="159,45,196,132" IsChecked="True" Grid.Row="2" Grid.Column="1"/>
+        <TextBlock Margin="56,71,0,0" TextWrapping="Wrap" Grid.Row="2" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="184"><Run FontWeight="Bold" FontSize="20" Text="On UWS Meal Plan:"/></TextBlock>
+        <TextBlock Margin="3,166,242,183" TextWrapping="Wrap" Grid.RowSpan="3" Grid.Column="1"><Run FontWeight="Bold" FontSize="8" Text="Age Category of Others in Household:"/><LineBreak/><Run FontWeight="Bold" FontSize="8" Text="(select all that apply)"/></TextBlock>
+        <TextBox Margin="264,161,0,0" TextWrapping="Wrap" Text="1" TextChanged="TextBox_TextChanged" Grid.RowSpan="2" Grid.Column="1" HorizontalAlignment="Left" Width="60" Height="17" VerticalAlignment="Top"/>
+        <TextBlock Margin="264,152,-19,13" TextWrapping="Wrap" Grid.Column="1"><Run FontWeight="Bold" FontSize="8" Text="Total number:"/></TextBlock>
+        <TextBlock Margin="103,132,164,30" TextWrapping="Wrap" Grid.Row="2"><Run FontWeight="Bold" FontSize="20" Text="Vegetables: "/></TextBlock>
+        <TextBlock Margin="103,175,164,101" TextWrapping="Wrap" Grid.Row="2" Grid.RowSpan="2"><Run FontWeight="Bold" FontSize="20" Text="Soup: "/></TextBlock>
+        <ComboBox IsEditable="True" Text="Tomato" Margin="240,175,0,0" VerticalAlignment="Top" SelectionChanged="ComboBox_SelectionChanged_2" Grid.Row="2" Grid.RowSpan="2" HorizontalAlignment="Left" Width="120"/>
+        <ComboBox IsEditable="True" Text="Beef" Margin="370,175,0,0" VerticalAlignment="Top" SelectionChanged="ComboBox_SelectionChanged_2" Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="120"/>
+        <TextBlock Margin="103,21,164,63" TextWrapping="Wrap" Grid.Row="3"><Run FontWeight="Bold" FontSize="20" Text="Beans: "/></TextBlock>
+        <ComboBox IsEditable="True" Text="Select Option" Margin="240,28,0,0" SelectionChanged="ComboBox_SelectionChanged_2" Grid.Row="3" HorizontalAlignment="Left" Width="120" Height="22" VerticalAlignment="Top"/>
+        <ComboBox IsEditable="True" Text="Select Option" Margin="98,175,0,0" VerticalAlignment="Top" SelectionChanged="ComboBox_SelectionChanged_2" Grid.Row="2" Grid.RowSpan="2" Grid.Column="1" HorizontalAlignment="Left" Width="120"/>
+        <TextBox Margin="264,43,0,0" TextWrapping="Wrap" Text="2" TextChanged="TextBox_TextChanged" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" Width="60" Height="17" VerticalAlignment="Top"/>
     </Grid>
 </Page>
